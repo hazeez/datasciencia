@@ -1,5 +1,5 @@
 ---
-title: "How To Use Checklists To Improve Your UX"
+title: "How To Use Checklists - Post 9"
 date: 2019-10-29T10:07:47+06:00
 draft: false
 
@@ -18,6 +18,8 @@ tags:
   - "HTML"
   - "Python"
   - "New"
+
+keywords: ['Programming','How to']
 
 # post type
 type: "post"

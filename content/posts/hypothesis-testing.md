@@ -2,8 +2,7 @@
 title: "Hypothesis Testing"
 date: 2020-04-11T00:12:52+05:30
 tags: [ab-testing, statistics]
-
-math: true
+image: "images/featured-post/post-1.jpg"
 ---
 
 ## What is Hypothesis Testing?
@@ -41,21 +40,15 @@ We believe that the mean of the population is `500`. Unless we obtain sufficient
 
 So we can write it as `null hypothesis: mean = 500`
 
-To write it more compactly, we can represent the same thing as
+To write it more compactly, we can represent the same thing as $ \mathbf{H}_\mathbf{0} : \mu = 500 $
 
-$$
-\mathbf{H}_\mathbf{0} : \mu = 500
-$$
-
-where the symbol $ \space\mathbf{H}_\mathbf{0} $ denotes Null hypothesis.
+where the symbol $\space\mathbf{H}_\mathbf{0}$ denotes Null hypothesis.
 
 The _opposite_ of Null hypothesis is called as _Alternate Hypothesis_. That is, the _negation_ of the null hypothesis. 
 
 If there is a way to represent the null hypothesis, then there should be a way to represent the alternate hypothesis. Agreed? Ah, I see I have quoted a null hypothesis there!
 
-$$
-\mathbf{H}_\mathbf{1}: \mu \ne 500
-$$
+$\mathbf{H}_\mathbf{1}: \mu \ne 500$
 
 where the symbol $\space\mathbf{H}_\mathbf{1}$ denotes alternate hypothesis
 
@@ -140,9 +133,9 @@ So, what we are contemplating here is the probability of the evidence (samples p
 
 This probablility is called as the _p-value_
 
-If we say the _p_value_ or probability is `2%`, it means that our sample has `2%` chances of going wrong in rejecting the null hypothesis.
+If we say the _p-value_ or probability is `2%`, it means that our sample has `2%` chances of going wrong in rejecting the null hypothesis.
 
-If we say the _p_value_ or probability is `30%`, it means that our sample has `30%` chances of going wrong in rejecting the null hypothesis and our chances of getting a promotion will be adversely impacted.
+If we say the _p-value_ or probability is `30%`, it means that our sample has `30%` chances of going wrong in rejecting the null hypothesis and our chances of getting a promotion will be adversely impacted.
 
 But, we are humans and we need to have a leeway (a threshold) for making some mistakes / error with the samples. 
 

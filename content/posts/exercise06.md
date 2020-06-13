@@ -2,8 +2,8 @@
 title: "Confidence level Vs the accuracy of the population mean"
 date: 2020-03-21T00:12:52+05:30
 tags: [statistics, exercise]
+image: "https://miro.medium.com/max/4320/1*pXwgoEYe6mZm5M5VYHu5lw.jpeg"
 ---
-![](https://miro.medium.com/max/4320/1*pXwgoEYe6mZm5M5VYHu5lw.jpeg)
 
 Does higher the confidence level in the confidence interval mean more the accurate prediction of the estimation of the population mean?
 

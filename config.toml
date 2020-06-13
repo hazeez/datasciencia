@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://datasciencia.com"
 languageCode = "en-us"
-title = "Datasciencia | All Stuff Data"
+title = "Datasciencia | Data Science from Ground-Up"
 theme = "liva-liva"
 summaryLength = "10"
 paginate = 6
@@ -9,6 +9,19 @@ disqusShortname = ""
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    codeFences = false 
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false 
+    # lineNumbersInTable = true
+    noClasses = false 
+    style = "github"
+    tabWidth = 4
+
+useChroma = false
 
 ############################# Plugins ##############################
 [params.plugins]
@@ -22,6 +35,9 @@ disqusShortname = ""
   URL = "plugins/themify-icons/themify-icons.css"
   [[params.plugins.css]]
   URL = "plugins/venobox/venobox.css"
+  # third party plugin - syntax highlighting
+  [[params.plugins.css]]
+  URL = "plugins/highlightjs/vs.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -38,6 +54,9 @@ disqusShortname = ""
   URL = "plugins/search/mark.js"
   [[params.plugins.js]]
   URL = "plugins/search/search.js"
+  # third party plugin - syntax highlighting
+  [[params.plugins.js]]
+  URL = "plugins/highlightjs/highlight.pack.js"
 
   
 ############################## navigation ###############################
@@ -82,37 +101,45 @@ disqusShortname = ""
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "Datasciencia aims to make data science simple with easy tutorials for beginners."
 author = "datasciencia"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # Contact Information
-mobile = "9779988988"
+#mobile = "9779988988"
 email = "info@datasciencia.com"
 location = "India"
 # copyright
 copyright = "| copyright &copy; 2020 [datasciencia](https://datasciencia.com) All Rights Reserved |"
 
-  # Preloader
-  [params.preloader]
-  enable = true
-  preloader = "" # use .png , .svg or .gif format
+# for shortcodes
+[markup.goldmark.renderer]
+unsafe= true
 
-  # search
-  [params.search]
-  enable = true
+# Preloader
+[params.preloader]
+enable = false 
+preloader = "" # use .png , .svg or .gif format
+
+# search
+[params.search]
+enable = true
+
+# enable katex  
+[params.math]
+enable = true
 
 ############################ news letter ########################
 [params.newsletter]
-enable = true
+enable = true 
 title = "Join Our Newsletter"
-content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+content = "We occasionally send you email updates on the latest posts, tutorials and book recommendations in Data Science. We have a strict no spam policy and we don't sell any data."
 
 ############################# social site ########################
 [[params.social]]
 title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/Datasciencia-110682290664089/"
 
 [[params.social]]
 title = "twitter"
@@ -133,3 +160,23 @@ link = "#"
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "#"
+
+############################# sharing options ########################
+
+# Sharing options
+  # Comment and uncomment to enable or disable sharing options
+[[params.sharingOptions]]
+name = "facebook"
+icon = "ti-facebook"
+url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+
+[[params.sharingOptions]]
+name = "twitter"
+icon = "ti-twitter-alt"
+url = "https://twitter.com/intent/tweet?text=%s"
+
+
+[[params.sharingOptions]]
+name = "linkedin"
+icon = "ti-linkedin"
+url = "https://www.linkedin.com/shareArticle?mini=true&url=%s&source=LinkedIn"

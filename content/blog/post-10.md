@@ -1,10 +1,10 @@
 ---
-title: "How To Use Checklists To Improve Your UX"
-date: 2019-10-29T10:07:47+06:00
+title: "How To Use Checklists - Post 10"
+date: 2019-11-01T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "images/post/post-1.jpg"
+image: "images/post/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg"
 
 # meta description
 description: "this is meta description"

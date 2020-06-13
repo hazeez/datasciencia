@@ -1,17 +1,17 @@
 ---
-title: "How To Use Checklists To Improve Your UX"
+title: "How To Use Checklists For An Awesome Blog - Post 1"
 date: 2019-10-29T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "images/featured-post/post-1.jpg"
+image: "images/post/juan-davila-P8PlK2nGwqA-unsplash.jpg"
 
 # meta description
 description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "Android And Gmaing"
+  - "Android And Gaming"
 tags:
   - "Photos"
   - "Game"
@@ -19,13 +19,19 @@ tags:
   - "Python"
   - "New"
 
+keywords: [Programming, 'How to']
+
 # post type
-#type: "featured"
+type: "featured"
+
+#funfact
+funfact: true 
+funfact_description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis
+cumque" 
 
 slug: "test-slug"
 ---
 
-# Heading 1
 ## Heading 2
 ### Heading 3
 #### Heading 4
@@ -160,7 +166,7 @@ Markdown | Less | Pretty
 
 ##### Image
 
-![image](../../images/post/post-1.jpg)
+![image](../../images/post/marcin-jozwiak-l5plFZq7E28-unsplash.jpg)
 
 <hr>
 

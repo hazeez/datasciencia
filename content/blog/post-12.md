@@ -1,10 +1,11 @@
 ---
-title: "How To Use Checklists To Improve Your UX"
-date: 2019-10-29T10:07:47+06:00
+title: "How To Use Checklists - Post 12"
+date: 2019-11-02T10:07:47+06:00
 draft: false
 
 # post thumb
 image: "images/post/post-3.jpg"
+image_credit: "a sample post picture"
 
 # meta description
 description: "this is meta description"
@@ -14,13 +15,17 @@ categories:
   - "Programming Language"
 tags:
   - "Game"
-  - "HTML"
+  - "html"
   - "Python"
-  - "New"
+
+keywords: ['Programming','How to']
 
 # post type
-type: "post"
+type: "featured"
 ---
+{{<alert info>}}
+	This is an info alert!
+{{</alert>}}
 
 # Heading 1
 ## Heading 2
@@ -28,8 +33,26 @@ type: "post"
 #### Heading 4
 ##### Heading 5
 ###### Heading 6
+<hr/>
 
-<hr>
+{{< fineprint >}}
+Disclaimer:
+Some of the links on this page may be affiliate links. Datasciencia is a participant in the Amazon Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by linking to products Datasciencia uses and trusts. If you purchase a product through an affiliate link, your cost will be the same, but Datasciencia will automatically receive a small commission. Your support is greatly appreciated and will help us to bring quality articles for the benefit of the community! 
+{{</fineprint>}}
+
+{{<alert warning>}}
+	This is a warning alert!
+{{</alert>}}
+
+{{<alert danger>}}
+	This is a danger alert!
+{{</alert>}}
+
+
+
+{{<pullquote ti-facebook>}}
+	this is a pull quote
+{{</pullquote>}}
 
 ##### Emphasis
 

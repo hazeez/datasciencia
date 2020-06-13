@@ -1,5 +1,5 @@
 ---
-title: "How To Use Checklists To Improve Your UX"
+title: "How To Use Checklists - Post 13"
 date: 2019-10-29T10:07:47+06:00
 draft: false
 
@@ -12,6 +12,7 @@ description: "this is meta description"
 # taxonomies
 categories: 
   - "Go Language"
+  - "Tutorial"
 tags:
   - "Photos"
   - "Game"
@@ -19,11 +20,14 @@ tags:
   - "Python"
   - "New"
 
+keywords: ['Programming','How to']
+
 # post type
-type: "post"
+type: "hidden"
+
 ---
 
-# Heading 1
+# post - 13 
 ## Heading 2
 ### Heading 3
 #### Heading 4
