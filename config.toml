@@ -5,7 +5,8 @@ title = "Datasciencia | Data Science from Ground-Up"
 theme = "liva-liva"
 summaryLength = "10"
 paginate = 6
-disqusShortname = ""
+disqusShortname = "hazeez"
+enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -68,16 +69,16 @@ useChroma = false
   URL = "about"
   weight = 1
   
-  [[menu.main]]
-  name = "Post"
-  # URL = "blog"
-  URL = "posts"
-  weight = 2
+  # [[menu.main]]
+  # name = "Post"
+  # # URL = "blog"
+  # URL = "posts"
+  # weight = 2
   
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
+  # [[menu.main]]
+  # name = "Contact"
+  # URL = "contact"
+  # weight = 3
 
   # footer menu
   [[menu.footer]]
@@ -85,15 +86,20 @@ useChroma = false
   URL = "about"
   weight = 1
   
-  [[menu.footer]]
-  name = "Post"
-  URL = "blog"
-  weight = 2
+  # [[menu.footer]]
+  # name = "Post"
+  # URL = "blog"
+  # weight = 2
   
+  # [[menu.footer]]
+  # name = "Contact"
+  # URL = "contact"
+  # weight = 3
+
   [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
+  name = "Privacy Policy"
+  URL = "privacypolicy"
+  weight = 4
 
 
 #################### default parameters ################################
@@ -101,16 +107,16 @@ useChroma = false
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "Datasciencia aims to make data science simple with easy tutorials for beginners."
-author = "datasciencia"
+description = "Datasciencia aims to make data science simple with easy tutorials and blog posts for beginners."
+author = "hazeez"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-171575356-1"
 # Contact Information
 #mobile = "9779988988"
 email = "info@datasciencia.com"
 location = "India"
 # copyright
-copyright = "| copyright &copy; 2020 [datasciencia](https://datasciencia.com) All Rights Reserved |"
+copyright = "copyright &copy; 2020 [datasciencia](https://datasciencia.com) All Rights Reserved"
 
 # for shortcodes
 [markup.goldmark.renderer]
@@ -146,15 +152,15 @@ title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
 link = "#"
 
-[[params.social]]
-title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# title = "instagram"
+# icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+# link = "#"
 
-[[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# title = "github"
+# icon = "ti-github" # themify icon : https://themify.me/themify-icons
+# link = "#"
 
 [[params.social]]
 title = "linkedin"
@@ -174,7 +180,6 @@ url = "https://www.facebook.com/sharer/sharer.php?u=%s"
 name = "twitter"
 icon = "ti-twitter-alt"
 url = "https://twitter.com/intent/tweet?text=%s"
-
 
 [[params.sharingOptions]]
 name = "linkedin"
