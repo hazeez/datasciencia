@@ -57,10 +57,12 @@ Hypothesis testing is a fundamental concept in statistics on which we do data an
 
 {{< alert info "Tutorial Series">}}
 This post is the part 1 of the four part series on hypothesis testing.
-- **[Part 1 - Introduction to hypothesis testing](../introduction-to-hypothesis-testing/)** 
+
+- **[Part 1 - Introduction to hypothesis testing](../introduction-to-hypothesis-testing/)**
 - [Part 2 - How to do hypothesis testing](../how-to-do-hypothesis-testing/)
 - [Part 3 - Finding the test statistic - Z test and T test](../hypothesis-testing-z-test-t-test/)
 - [Part 4 - Finding the test statistic - F test and Chi Square test](../hypothesis-testing-f-test-and-chi-square-test/)
+
 {{< /alert >}}
 
 
