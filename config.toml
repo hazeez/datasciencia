@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://datasciencia.com"
 languageCode = "en-us"
-title = "Datasciencia | Data Science from Ground-Up"
+title = "Datasciencia | Data Science for Beginners"
 theme = "liva-liva"
 summaryLength = "10"
 paginate = 6
