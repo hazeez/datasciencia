@@ -65,6 +65,7 @@ We will keep _p-value_ aside at the moment and focus on how to do hypothesis tes
 
 {{< alert info "Tutorial Series">}}
 This post is the part 2 of the four part series on hypothesis testing.
+
 - [Part 1 - Introduction to hypothesis testing](../introduction-to-hypothesis-testing/)
 - **[Part 2 - How to do hypothesis testing](../how-to-do-hypothesis-testing/)**
 - [Part 3 - Finding the test statistic - Z test and T test](../hypothesis-testing-z-test-t-test/)

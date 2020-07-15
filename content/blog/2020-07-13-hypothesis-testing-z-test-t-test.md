@@ -61,6 +61,7 @@ critical value. Finding the test statistic helps us to accept or reject our null
 
 {{< alert info "Tutorial Series">}}
 This post is the part 3 of the four part series on hypothesis testing.
+
 - [Part 1 - Introduction to hypothesis testing](../introduction-to-hypothesis-testing/)
 - [Part 2 - How to do hypothesis testing](../how-to-do-hypothesis-testing/)
 - **[Part 3 - Finding the test statistic - Z test and T test](../hypothesis-testing-z-test-t-test/)**
