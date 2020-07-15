@@ -1,13 +1,13 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Getting Started With Datascience"
+date: 2020-07-14T07:31:20+05:30
 
 # post thumb - set only one image
 #image: "images/featured-post/post-1.jpg"
 image: "images/post/post-3.jpg"
 image_credit: "a sample post picture"
 thumbnail: "images/post/post-3.jpg"
-alt: "test image"
+alt: "getting started with datascience"
 
 # meta description
 description: "this is meta description"
