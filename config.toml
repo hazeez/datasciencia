@@ -30,12 +30,12 @@ useChroma = false
   # CSS Plugins
   [[params.plugins.css]]
   URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
+  # [[params.plugins.css]]
+  # URL = "plugins/slick/slick.css"
   [[params.plugins.css]]
   URL = "plugins/themify-icons/themify-icons.css"
   [[params.plugins.css]]
-  URL = "plugins/venobox/venobox.css"
+  # URL = "plugins/venobox/venobox.css"
   # third party plugin - syntax highlighting
   [[params.plugins.css]]
   URL = "plugins/highlightjs/vs.css"
@@ -46,10 +46,10 @@ useChroma = false
   [[params.plugins.js]]
   URL = "plugins/bootstrap/bootstrap.min.js"
   [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/venobox/venobox.min.js"
-  [[params.plugins.js]]
+  # URL = "plugins/slick/slick.min.js"
+  # [[params.plugins.js]]
+  # URL = "plugins/venobox/venobox.min.js"
+  # [[params.plugins.js]]
   URL = "plugins/search/fuse.min.js"
   [[params.plugins.js]]
   URL = "plugins/search/mark.js"
@@ -116,7 +116,7 @@ googleAnalitycsID = "UA-171575356-1"
 email = "info@datasciencia.com"
 location = "India"
 # copyright
-copyright = "copyright &copy; 2020 [datasciencia](https://datasciencia.com) All Rights Reserved"
+copyright = "Copyright &copy; 2020 [datasciencia](https://datasciencia.com) All Rights Reserved"
 
 # for shortcodes
 [markup.goldmark.renderer]
@@ -150,22 +150,22 @@ link = "https://www.facebook.com/Datasciencia-110682290664089/"
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "hafizulazeez"
 
 # [[params.social]]
 # title = "instagram"
 # icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
 # link = "#"
 
-# [[params.social]]
-# title = "github"
-# icon = "ti-github" # themify icon : https://themify.me/themify-icons
-# link = "#"
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "hazeez"
 
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "hafizulazeez"
 
 ############################# sharing options ########################
 
@@ -174,14 +174,14 @@ link = "#"
 [[params.sharingOptions]]
 name = "facebook"
 icon = "ti-facebook"
-url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+url = "https://www.facebook.com/sharer/sharer.php?u=datasciencia.com%s"
 
 [[params.sharingOptions]]
 name = "twitter"
 icon = "ti-twitter-alt"
-url = "https://twitter.com/intent/tweet?text=%s"
+url = "https://twitter.com/intent/tweet?text=datasciencia.com%s"
 
 [[params.sharingOptions]]
 name = "linkedin"
 icon = "ti-linkedin"
-url = "https://www.linkedin.com/shareArticle?mini=true&url=%s&source=LinkedIn"
+url = "https://www.linkedin.com/shareArticle?mini=true&url=datasciencia.com%s&source=LinkedIn"
