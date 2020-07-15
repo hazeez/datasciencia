@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://datasciencia.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Datasciencia | Data Science for Beginners"
 theme = "liva-liva"
