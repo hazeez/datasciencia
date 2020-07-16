@@ -32,9 +32,10 @@ slug: "hypothesis testing f test and chi square test"
 # keywords
 keywords:
   - statistics
-  - hypothesis
+  - hypothesis testing
   - A/B testing
   - inferential statistics
+  - statistical inference testing
 
 # comments - set to 'true' or 'false'
 comments: true 
@@ -191,7 +192,7 @@ Let's follow the hypothesis testing process.
 
 	![](https://i.imgur.com/0SxM4Y0.png)
 	
-	Since the $\chi ^2_{test} < \chi^2_{critical}$ i.e. $30.8 < 36.191$, we accept the null hypothesis.
+	Since the $\chi^2_{test} < \chi^2_{critical}$ i.e. `30.8` < `36.191`, we accept the null hypothesis.
 
 	The bearings produced are within the specified limits required by the customer.
 
@@ -326,7 +327,9 @@ There are five steps to the hypothesis testing process. Let's follow that one by
 
 	The F-table has a degree of freedom one ($df_1$) on the 'x' axis and degree of freedom two ($df_2$) on the 'y' axis.
 
-	Let's see the F table for $df_1 = 9$ and $df_2 = 11$ to find the critical value for F test. The critical value is $F_{0.025,9,11} = 3.5879$. 
+	Let's see the F table for $df_1 = 9$ and $df_2 = 11$ to find the critical value for F test. The critical value is 
+
+	$$F_{0.025,9,11} = 3.5879$$. 
 	
 	![](https://i.imgur.com/iq9ZRyX.png)
 
@@ -360,9 +363,9 @@ There are five steps to the hypothesis testing process. Let's follow that one by
 
 5. Draw the conclusion
 
-	From the above steps, we know that the $F_{critical} = 3.5879$ and the $F_{score} = 5.62$
+	From the above steps, we know that the $F_{critical} = 3.5879 \text { and} \space \text {the } F_{score} = 5.62$
 
-	Since $F_{score}$ > $F_{critical}$ or in other words, falls into the rejection region, we reject the null hypothesis. 
+	Since $F_{score} > F_{critical}$ or in other words, falls into the rejection region, we reject the null hypothesis. 
 
 	That is, the variance in machine one and machine two are not equal. Machine one has a higher variance and hence needs inspection for issues.
 
@@ -476,11 +479,11 @@ where $\sum(x - \bar{x}) ^2$ is the _sum of squares_ $SS$ and the $n -1$ is the 
 So the formula for the f value becomes
 
 $$
-F = \frac{VarianceBetweenGroups}{VarianceWithinGroups} = \frac{\frac{SSG}{df_{groups}}}{\frac{SSE}{df_{error}}}
+F = \frac{\text {Variance Between Groups}} {\text {Variance Within Groups}} = \frac{\frac{SSG}{df_{groups}}}{\frac{SSE}{df_{error}}}
 $$
 
-where $SSG$ = Sum of squares groups, $df_{groups} =$ degrees of freedom (groups) and
-$SSE$ = Sum of squares error and $df_{error}$ = degrees of freedom (error)
+where SSG = Sum of Squares Groups, $df_{groups} =$ degrees of freedom (groups) and
+SSE = Sum of Squares Error and $df_{error}$ = degrees of freedom (error)
 
 ### Solution approach
 
@@ -522,7 +525,7 @@ We know that in the formula, we are dividing the sum of squares between groups a
 We know the formula is
 
 $$
-F = \frac{VarianceBetweenGroups}{VarianceWithinGroups} = \frac{\frac{SSG}{df_{groups}}}{\frac{SSE}{df_{error}}}
+F = \frac{\text {Variance Between Groups}}{ \text {Variance Within Groups}} = \frac{\frac{SSG}{df_{groups}}}{\frac{SSE}{df_{error}}}
 $$
 
 #### Computing the sum of squares within groups and between groups manually.
@@ -555,7 +558,7 @@ $$
 	
 5. Draw your conclusion
 	
-	Here we see that the $F_{score}$ is less than the $F_{critical}$ ($1.718 < 3.354$), and hence we will accept the null hypothesis - which means that there is no difference between the means of any group.
+	Here we see that the $F_{score} \text {is less than the } $F_{critical}$ (`1.718` < `3.354`), and hence we will accept the null hypothesis - which means that there is no difference between the means of any group.
 
 	![](https://i.imgur.com/mOHKOzb.png)
 

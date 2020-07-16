@@ -311,7 +311,7 @@ where $\alpha$ is the level of significance.
 We know the formula for the confidence interval of the _t_ distribution is 
 
 $$
-\bar{x} - t_{n-1,\frac{\alpha}{2}} \frac{s}{\sqrt n} \le \mu \le \bar{x} + t_{n-1,\frac{\alpha}{2}} \frac{s}{\sqrt n}
+\bar{x} - t _{n-1,\frac{\alpha}{2}} \frac{s}{\sqrt n} \le \mu \le \bar{x} + t _{n-1,\frac{\alpha}{2}} \frac{s}{\sqrt n}
 $$
 
 If we substitute the values, we get
@@ -376,7 +376,7 @@ With the same mean 10, we cannot be sure about the exact values of $x$ and $y$.
 
 It could be any values of these values - (10, 15), (15, 10), (5, 20), (20, 5) or even (1, 24).
 
-These two values ($x \text {and} y$) have the freedom to vary. So, the degree of freedom ($df$) of this sample data of size 3 is 2. It can be generalized as $df = n - 1$.
+These two values ($x \text { and } y$) have the freedom to vary. So, the degree of freedom ($df$) of this sample data of size 3 is 2. It can be generalized as $df = n - 1$.
 
 where $df$ is the degree of freedom and $n$ is the  sample size
 
@@ -405,7 +405,7 @@ In other words, is there an increase in sales after the training is provided.
 
 We know the hypothesis testing steps. 
 
-1. State the null and the alternate hypothesis
+**1. State the null and the alternate hypothesis**
 
 $$
 	\mathbf{H}_\mathbf{0}: \mu = 100
@@ -417,11 +417,12 @@ $$
 
 Since the symbol of the alternate hypothesis is greater than, it is a _right-tailed_ test.
 
-2. Find the level of significance.
+
+**2. Find the level of significance.**
 	
 Here the level of significance is provided - which is $\alpha = 0.05$
 
-3. Find the critical value
+**3. Find the critical value**
 
 Since this is a t-test, we need to use the t-table to find the critical value.
 The t-table has the degree of freedom and corresponding level of significance to provide the critical value.
@@ -433,7 +434,7 @@ Looking into the critical table for $df = 24$ and $\alpha =  0.05$, we get the c
 ![](https://i.imgur.com/SAImuwn.png)
 
 
-4. Find the test statistic
+**4. Find the test statistic**
 
 We know the formula for the _t_ test is 
 
@@ -449,7 +450,7 @@ $$
 
 which gives us the $t_{score} = 10$
 
-5. Drawing the conclusions
+**5. Drawing the conclusion**
 
 We see that the $t_{score}$ falls within the rejection region, so we reject the null hypothesis and accept the
 alternate hypothesis.
@@ -470,7 +471,12 @@ you on the latest content published on datasciencia.
 ### References
 
 - [Test statistic](https://www.statisticshowto.com/test-statistic/)
-- [Complete Business Statistics Book](https://www.amazon.in/Complete-Business-Statistics-Amir-Aczel/dp/0071077901)
+- [Complete Business Statistics Book](https://amzn.to/32xsQzV)
+
+{{< fineprint >}}
+Disclaimer:
+Some of the links on this page may be affiliate links. Datasciencia is a participant in the Amazon Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by linking to products Datasciencia uses and trusts. If you purchase a product through an affiliate link, your cost will be the same, but Datasciencia will automatically receive a small commission. Your support is greatly appreciated and will help us to bring quality articles for the benefit of the community! 
+{{</fineprint>}}
 
 {{< alert info "Next part in the series" >}}
 - [Part 4 - Finding the test statistic - F test and Chi Square test](../hypothesis-testing-f-test-and-chi-square-test/)

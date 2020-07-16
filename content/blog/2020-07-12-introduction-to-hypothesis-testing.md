@@ -90,8 +90,7 @@ The null hypothesis is the _assertion or belief that we hold as true_ unless we 
 
 In statistical terms, we say it as _the belief we hold about the value of a population parameter_ 
 
-!!! Remember
-	The parameter is for the population, and Statistic is for the sample.
+**Remember**: The parameter is for the population, and Statistic is for the sample.
 
 Let's take an example and see what the null hypothesis is and how to write one.
 
@@ -111,8 +110,7 @@ $\mathbf{H}_\mathbf{1}: \mu \ne 500$
 
 Here, the symbol $\space\mathbf{H}_\mathbf{1}$ denotes the alternate hypothesis.
 
-!!! Note
-	Since the null hypothesis and the alternate hypothesis are precisely contradictory statements, only one can be true. Rejecting one is accepting the other.
+**Note**: Since the null hypothesis and the alternate hypothesis are precisely contradictory statements, only one can be true. Rejecting one is accepting the other.
 
 #### Let's check our understanding with a few examples
 

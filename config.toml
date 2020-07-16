@@ -150,7 +150,7 @@ link = "https://www.facebook.com/Datasciencia-110682290664089/"
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "hafizulazeez"
+link = "https://twitter.com/hafizulazeez"
 
 # [[params.social]]
 # title = "instagram"
@@ -160,12 +160,12 @@ link = "hafizulazeez"
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "hazeez"
+link = "https://github.com/hazeez"
 
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "hafizulazeez"
+link = "https://www.linkedin.com/in/hafizulazeez/"
 
 ############################# sharing options ########################
 
