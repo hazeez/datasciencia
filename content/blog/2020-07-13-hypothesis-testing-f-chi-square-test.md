@@ -78,7 +78,7 @@ In this article, let us see two tests - the chi-squared ($\chi^2$) and F test, w
 The sample estimate of the population variance is given by
 
 $$
-		s^2 = \frac{\sum(x_i-\bar{x})^2}{n-1}
+s^2 = \frac{\sum(x_i-\bar{x})^2}{n-1}
 $$
 where $s$ is the sample variance, $\bar{x}$ is the sample mean, and $n$ is the number of samples.
 {{< /alert >}}
@@ -134,67 +134,67 @@ Let's follow the hypothesis testing process.
 
 **1. State the null and the alternate hypothesis.**
 
-	The variance in diameter to be **no more than** 0.001 $cm ^2$.
-	
-	So the null hypothesis is 
-	
-	$$
-		 \mathbf{H}_\mathbf{0}: diameter \le 0.001
-	$$
-	
-	and the alternate hypothesis is
-	
-	$$
-		 \mathbf{H}_\mathbf{1} : diameter > 0.001
-	$$
-	
-	Since the alternate hypothesis has the greater than symbol $>$, it is a chi-square **right-tailed** test.
+The variance in diameter to be **no more than** 0.001 $cm ^2$.
+
+So the null hypothesis is 
+
+$$
+ \mathbf{H}_\mathbf{0}: diameter \le 0.001
+$$
+
+and the alternate hypothesis is
+
+$$
+ \mathbf{H}_\mathbf{1} : diameter > 0.001
+$$
+
+Since the alternate hypothesis has the greater than symbol $>$, it is a chi-square **right-tailed** test.
 
 **2. Find the level of significance**
-	
-	The level of significance provided is $\alpha = 0.01$
-	
-	**Note:** If the level of significance is not given, take the default $\alpha = 0.05$
-	
-**3. Find the critical value**
-	
-	The critical value is found out in the chi-squared table for $df = 19$ and $\alpha = 0.01$. 
 
-	The critical value is **36.191** i.e $\chi ^2_c = 36.191$
-	
-	![](https://i.imgur.com/oMCGtpp.png)
+The level of significance provided is $\alpha = 0.01$
+
+**Note:** If the level of significance is not given, take the default $\alpha = 0.05$
+
+**3. Find the critical value**
+
+The critical value is found out in the chi-squared table for $df = 19$ and $\alpha = 0.01$. 
+
+The critical value is **36.191** i.e $\chi ^2_c = 36.191$
+
+![](https://i.imgur.com/oMCGtpp.png)
 
 **4. Find the test statistic**
 
-	To find the test statistic, we will use the formula.
+To find the test statistic, we will use the formula.
 
-	$$
-	\chi ^2 = \frac{(n-1)s ^2}{\sigma ^2}
-	$$
+$$
+\chi ^2 = \frac{(n-1)s ^2}{\sigma ^2}
+$$
 
-	We don't know the sample variance $s ^2$, but it can be computed using the data provided.
+We don't know the sample variance $s ^2$, but it can be computed using the data provided.
 
-	Copy the data in excel and use the formula `VAR.S` and get the value, which in turn is $0.001621$.
+Copy the data in excel and use the formula `VAR.S` and get the value, which in turn is $0.001621$.
 
-	Substituting the values, we get
+Substituting the values, we get
 
-	$$
-	\chi ^2 = \frac{19 *0.001621}{0.001}
-	$$
-	
-	which gives
+$$
+\chi ^2 = \frac{19 x 0.001621}{0.001}
+$$
 
-	$$
-	\chi ^2 = 30.8
-	$$
+which gives
+
+$$
+\chi ^2 = 30.8
+$$
 
 **5. Draw the conclusion - to accept/reject the null hypothesis**
 
-	![](https://i.imgur.com/0SxM4Y0.png)
-	
-	Since the $\chi^2 _{test} < \chi^2 _{critical}$ i.e. `30.8` < `36.191`, we accept the null hypothesis.
+![](https://i.imgur.com/0SxM4Y0.png)
 
-	The bearings produced are within the specified limits required by the customer.
+Since the $\chi^2 _{test} < \chi^2 _{critical}$ i.e. `30.8` < `36.191`, we accept the null hypothesis.
+
+The bearings produced are within the specified limits required by the customer.
 
 To conclude, a $\chi ^2$ test (chi-squared) is used to test the hypothesis about a single population variance.
 
@@ -226,8 +226,8 @@ Since the F test compares two **variances**, we need to square the standard devi
 
 Ideally, this F ratio should be about 1
 
--	if the two samples come from the same population
--	or the two samples come from a different population with the same variance
+- if the two samples come from the same population
+- or the two samples come from a different population with the same variance
 
 So if we compute the F ratio and see if the value is near to 1, it means two samples have the same variance, thereby the population variance is also the same.
 
@@ -298,80 +298,80 @@ The degree of freedom for machine two is `11` ($df_2 = n_2 - 1$).
 There are five steps to the hypothesis testing process. Let's follow that one by one.
 
 **1. State the null and the alternate hypothesis**
-	
-	Since this problem talks about variance in the two machines, the null hypothesis will be that there is no variance.
 
-	$$
-	 \mathbf{H}_\mathbf{0}: \sigma_1 ^2 = \sigma_2 ^2
-	$$
+Since this problem talks about variance in the two machines, the null hypothesis will be that there is no variance.
 
-	The alternate hypothesis will be
-	
-	$$
-	 \mathbf{H}_\mathbf{1}: \sigma_1 ^2 \ne \sigma_2 ^2
-	$$	
+$$
+ \mathbf{H}_\mathbf{0}: \sigma_1 ^2 = \sigma_2 ^2
+$$
 
-	Based on the symbol of the alternate hypothesis, which is $\ne$, we conclude that this is a **two-tailed** test.
+The alternate hypothesis will be
 
-	**Tip**: If there is any difficulty in stating the null hypothesis, start with the alternate hypothesis and then draft the null hypothesis.
+$$
+ \mathbf{H}_\mathbf{1}: \sigma_1 ^2 \ne \sigma_2 ^2
+$$	
+
+Based on the symbol of the alternate hypothesis, which is $\ne$, we conclude that this is a **two-tailed** test.
+
+**Tip**: If there is any difficulty in stating the null hypothesis, start with the alternate hypothesis and then draft the null hypothesis.
 
 **2. Find the level of significance**
-	
-	The level of significance $ \alpha $ is not given, and hence, a $ \alpha $ of `5`% or `0.05` is presumed.
 
-	Since this is a two-tailed test, we have to divide $\alpha$ by `2`, which gives the value as `0.025` for each tail.
-	
+The level of significance $ \alpha $ is not given, and hence, a $ \alpha $ of `5`% or `0.05` is presumed.
+
+Since this is a two-tailed test, we have to divide $\alpha$ by `2`, which gives the value as `0.025` for each tail.
+
 **3. Find the critical value**
-	
-	Similar to tables for other tests, F tests also have a corresponding table called the F-table.
 
-	The F-table has a degree of freedom one ($df_1$) on the 'x' axis and degree of freedom two ($df_2$) on the 'y' axis.
+Similar to tables for other tests, F tests also have a corresponding table called the F-table.
 
-	Let's see the F table for $df_1 = 9$ and $df_2 = 11$ to find the critical value for F test. The critical value is 
+The F-table has a degree of freedom one ($df_1$) on the 'x' axis and degree of freedom two ($df_2$) on the 'y' axis.
 
-	$$F_{0.025,9,11} = 3.5879$$. 
-	
-	![](https://i.imgur.com/iq9ZRyX.png)
+Let's see the F table for $df_1 = 9$ and $df_2 = 11$ to find the critical value for F test. The critical value is 
 
-	This number is for the right-tail. Remember, we have a two-tails for this hypothesis testing.
+$$F _{0.025,9,11} = 3.5879$$. 
 
-	We also need to compute the left-tail critical value which can be either computed like the F-table above with a level of significance $\alpha = 0.975 (1-0.025 = 0.975)$ and the $df_1 = 9$ and $df_2 = 11$.
+![](https://i.imgur.com/iq9ZRyX.png)
 
-	The other method of doing this is to divide 1 by $F _{0.025,9,11}$
-	
-	$$
-	F _{0.975,9,11} = \frac{1}{F _{0.025,9,11}}
-	$$
+This number is for the right-tail. Remember, we have a two-tails for this hypothesis testing.
 
-	$$
-	F _{0.975,9,11} = \frac{1}{3.5879} = 0.2787
-	$$
+We also need to compute the left-tail critical value which can be either computed like the F-table above with a level of significance $\alpha = 0.975 (1-0.025 = 0.975)$ and the $df_1 = 9$ and $df_2 = 11$.
+
+The other method of doing this is to divide 1 by $F _{0.025,9,11}$
+
+$$
+F _{0.975,9,11} = \frac{1}{F _{0.025,9,11}}
+$$
+
+$$
+F _{0.975,9,11} = \frac{1}{3.5879} = 0.2787
+$$
 
 **4. Find the test statistic**
 
-	The test statistic is computed by the F distribution formula - which is
+The test statistic is computed by the F distribution formula - which is
 
-	$$
-	F = \frac{s_1 ^2}{s_2 ^2}
-	$$
+$$
+F = \frac{s_1 ^2}{s_2 ^2}
+$$
 
-	So the F score is `5.62`
+So the F score is `5.62`
 
-	$$
-	F_{score} = \frac{0.11378}{0.02023} = 5.62
-	$$
+$$
+F _{score} = \frac{0.11378}{0.02023} = 5.62
+$$
 
 **5. Draw the conclusion**
 
-	From the above steps, we know that the $F _{critical} = 3.5879 \text { and} \space \text {the } F _{score} = 5.62$
+From the above steps, we know that the $F _{critical} = 3.5879 \text { and} \space \text {the } F _{score} = 5.62$
 
-	Since $F _{score} > F _{critical}$ or in other words, falls into the rejection region, we reject the null hypothesis. 
+Since $F _{score} > F _{critical}$ or in other words, falls into the rejection region, we reject the null hypothesis. 
 
-	That is, the variance in machine one and machine two are not equal. Machine one has a higher variance and hence needs inspection for issues.
+That is, the variance in machine one and machine two are not equal. Machine one has a higher variance and hence needs inspection for issues.
 
-	The graph below illustrates the F score and the F critical value and why we reject the null hypothesis.
+The graph below illustrates the F score and the F critical value and why we reject the null hypothesis.
 
-	![](https://i.imgur.com/ogYXdYk.png)
+![](https://i.imgur.com/ogYXdYk.png)
 
 <hr/>
 	
@@ -491,14 +491,14 @@ As with any hypothesis testing, let us perform the calculation using the hypothe
 
 **1. State the null and the alternate hypothesis**
 
-	For ANOVA, the hypothesis will always be - the means across different groups will be equal.	
-	In this case, the means of the groups will be equal is the null hypothesis.
+For ANOVA, the hypothesis will always be - the means across different groups will be equal.	
+In this case, the means of the groups will be equal is the null hypothesis.
 
-	$$
-		 \mathbf{H}_\mathbf{0}: \mu_A = \mu_B = \mu_C
-	$$
-	
-	The alternate hypothesis will be $\mathbf{H}_\mathbf{1}: \mu_A \ne \mu_B \ne \mu_C$
+$$
+ \mathbf{H}_\mathbf{0}: \mu_A = \mu_B = \mu_C
+$$
+
+The alternate hypothesis will be $\mathbf{H}_\mathbf{1}: \mu_A \ne \mu_B \ne \mu_C$
 
 {{< alert info Important >}}
 In ANOVA, there will be **NO two-tailed test**. ANOVA will ALWAYS be one-tailed, and that will be **upper-tailed only**. Why?
@@ -508,19 +508,19 @@ We know that in the formula, we are dividing the sum of squares between groups a
 
 **2. Find the level of significance**
 
-	Here level of significance is not provided; we will take the default $\alpha = 0.05$
+Here level of significance is not provided; we will take the default $\alpha = 0.05$
 
 **3. Find the critical value**
-	
-	We know that the two degrees of freedom - for the groups and within the groups are 2 and 27, respectively. So, $df_1 = 2$ and $df_2 = 27$
 
-	Looking into the F table (for ANOVA) at `0.05` significance level, we get the $F_{critical}$	value as $3.35$ (see image below)
+We know that the two degrees of freedom - for the groups and within the groups are 2 and 27, respectively. So, $df_1 = 2$ and $df_2 = 27$
 
-	![](https://i.imgur.com/B0ucElO.png)
+Looking into the F table (for ANOVA) at `0.05` significance level, we get the $F_{critical}$	value as $3.35$ (see image below)
+
+![](https://i.imgur.com/B0ucElO.png)
 
 **4. Find the test statistic**
 
-	To compute it manually, we will be using excel. The following screenshot shows how it is done.
+To compute it manually, we will be using excel. The following screenshot shows how it is done.
 
 We know the formula is
 
@@ -542,25 +542,25 @@ $$
 
 1. Enter the data in excel
 
-	![](https://i.imgur.com/a87UPqd.png)
-	
+![](https://i.imgur.com/a87UPqd.png)
+
 2. Go to Data -> Data Analysis and select "Anova - Single-factor" and click "OK."
+
+![](https://i.imgur.com/qhJSZ3w.png)
 	
-	![](https://i.imgur.com/qhJSZ3w.png)
-		
 3. Give the input range and check "labels in first row" as we have the group headers in the first row and input the significance level. Click "OK"
 
-	![](https://i.imgur.com/q0stppA.png)
+![](https://i.imgur.com/q0stppA.png)
 
 4. We get the analysis in a new sheet.
 
-	![](https://i.imgur.com/I1AhY5O.png)
-	
-**5. Draw your conclusion**
-	
-	Here we see that the $F _{score} \text {is less than the } F _{critical}$ (`1.718` < `3.354`), and hence we will accept the null hypothesis - which means that there is no difference between the means of any group.
+![](https://i.imgur.com/I1AhY5O.png)
 
-	![](https://i.imgur.com/mOHKOzb.png)
+**5. Draw your conclusion**
+
+Here we see that the $F _{score} \text {is less than the } F _{critical}$ (`1.718` < `3.354`), and hence we will accept the null hypothesis - which means that there is no difference between the means of any group.
+
+![](https://i.imgur.com/mOHKOzb.png)
 
 
 ## Summary
