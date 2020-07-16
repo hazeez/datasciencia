@@ -482,8 +482,8 @@ $$
 F = \frac {\text {Variance Between Groups}} {\text {Variance Within Groups}} = \frac {\frac{SSG}{df _{groups}}}{\frac {SSE} {df _{error}}}
 $$
 
-where SSG = Sum of Squares Groups, $df_{groups} =$ degrees of freedom (groups) and
-SSE = Sum of Squares Error and $df_{error}$ = degrees of freedom (error)
+where SSG = Sum of Squares Groups, $df _{groups} =$ degrees of freedom (groups) and
+SSE = Sum of Squares Error and $df _{error}$ = degrees of freedom (error)
 
 ### Solution approach
 
