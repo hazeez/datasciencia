@@ -179,7 +179,7 @@ Copy the data in excel and use the formula `VAR.S` and get the value, which in t
 Substituting the values, we get
 
 $$
-\chi ^2 = \frac{19 x 0.001621}{0.001}
+\chi ^2 = \frac{19 \* 0.001621}{0.001}
 $$
 
 which gives
@@ -525,7 +525,7 @@ To compute it manually, we will be using excel. The following screenshot shows h
 We know the formula is
 
 $$
-F = \frac{\text {Variance Between Groups}}{ \text {Variance Within Groups}} = \frac{\frac{SSG}{df_{groups}}}{\frac{SSE}{df_{error}}}
+F = \frac{\text {Variance Between Groups}}{ \text {Variance Within Groups}} = \frac{\frac{SSG}{df _{groups}}}{\frac{SSE}{df _{error}}}
 $$
 
 #### Computing the sum of squares within groups and between groups manually.
