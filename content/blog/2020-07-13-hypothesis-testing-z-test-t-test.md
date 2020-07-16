@@ -317,7 +317,7 @@ $$
 If we substitute the values, we get
 
 $$
-10.37 - t_{14,0.025} \frac{3.5}{\sqrt 15} \le \mu \le 10.37 + t_{14,0.025} \frac{3.5}{\sqrt 15}
+10.37 - t _{14,0.025} \frac{3.5}{\sqrt 15} \le \mu \le 10.37 + t _{14,0.025} \frac{3.5}{\sqrt 15}
 $$
 
 From the _t_ tables, we can find the _t_ statistic value for $df = 14$ and $\alpha /2 = 0.025$ is

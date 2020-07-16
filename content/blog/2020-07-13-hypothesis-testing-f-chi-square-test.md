@@ -132,7 +132,7 @@ Population variance $\sigma ^2 = 0.001$
 
 Let's follow the hypothesis testing process.
 
-1. State the null and the alternate hypothesis.
+**1. State the null and the alternate hypothesis.**
 
 	The variance in diameter to be **no more than** 0.001 $cm ^2$.
 	
@@ -150,13 +150,13 @@ Let's follow the hypothesis testing process.
 	
 	Since the alternate hypothesis has the greater than symbol $>$, it is a chi-square **right-tailed** test.
 
-2. Find the level of significance
+**2. Find the level of significance**
 	
 	The level of significance provided is $\alpha = 0.01$
 	
 	**Note:** If the level of significance is not given, take the default $\alpha = 0.05$
 	
-3. Find the critical value
+**3. Find the critical value**
 	
 	The critical value is found out in the chi-squared table for $df = 19$ and $\alpha = 0.01$. 
 
@@ -164,7 +164,7 @@ Let's follow the hypothesis testing process.
 	
 	![](https://i.imgur.com/oMCGtpp.png)
 
-4. Find the test statistic
+**4. Find the test statistic**
 
 	To find the test statistic, we will use the formula.
 
@@ -188,11 +188,11 @@ Let's follow the hypothesis testing process.
 	\chi ^2 = 30.8
 	$$
 
-5. Draw the conclusion - to accept/reject the null hypothesis
+**5. Draw the conclusion - to accept/reject the null hypothesis**
 
 	![](https://i.imgur.com/0SxM4Y0.png)
 	
-	Since the $\chi^2_{test} < \chi^2_{critical}$ i.e. `30.8` < `36.191`, we accept the null hypothesis.
+	Since the $\chi^2 _{test} < \chi^2 _{critical}$ i.e. `30.8` < `36.191`, we accept the null hypothesis.
 
 	The bearings produced are within the specified limits required by the customer.
 
@@ -297,7 +297,7 @@ The degree of freedom for machine two is `11` ($df_2 = n_2 - 1$).
 
 There are five steps to the hypothesis testing process. Let's follow that one by one.
 
-1. State the null and the alternate hypothesis
+**1. State the null and the alternate hypothesis**
 	
 	Since this problem talks about variance in the two machines, the null hypothesis will be that there is no variance.
 
@@ -315,13 +315,13 @@ There are five steps to the hypothesis testing process. Let's follow that one by
 
 	**Tip**: If there is any difficulty in stating the null hypothesis, start with the alternate hypothesis and then draft the null hypothesis.
 
-2. Find the level of significance
+**2. Find the level of significance**
 	
 	The level of significance $ \alpha $ is not given, and hence, a $ \alpha $ of `5`% or `0.05` is presumed.
 
 	Since this is a two-tailed test, we have to divide $\alpha$ by `2`, which gives the value as `0.025` for each tail.
 	
-3. Find the critical value
+**3. Find the critical value**
 	
 	Similar to tables for other tests, F tests also have a corresponding table called the F-table.
 
@@ -337,17 +337,17 @@ There are five steps to the hypothesis testing process. Let's follow that one by
 
 	We also need to compute the left-tail critical value which can be either computed like the F-table above with a level of significance $\alpha = 0.975 (1-0.025 = 0.975)$ and the $df_1 = 9$ and $df_2 = 11$.
 
-	The other method of doing this is to divide 1 by $F_{0.025,9,11}$
+	The other method of doing this is to divide 1 by $F _{0.025,9,11}$
 	
 	$$
-	F_{0.975,9,11} = \frac{1}{F_{0.025,9,11}}
+	F _{0.975,9,11} = \frac{1}{F _{0.025,9,11}}
 	$$
 
 	$$
-	F_{0.975,9,11} = \frac{1}{3.5879} = 0.2787
+	F _{0.975,9,11} = \frac{1}{3.5879} = 0.2787
 	$$
 
-4. Find the test statistic
+**4. Find the test statistic**
 
 	The test statistic is computed by the F distribution formula - which is
 
@@ -361,11 +361,11 @@ There are five steps to the hypothesis testing process. Let's follow that one by
 	F_{score} = \frac{0.11378}{0.02023} = 5.62
 	$$
 
-5. Draw the conclusion
+**5. Draw the conclusion**
 
-	From the above steps, we know that the $F_{critical} = 3.5879 \text { and} \space \text {the } F_{score} = 5.62$
+	From the above steps, we know that the $F _{critical} = 3.5879 \text { and} \space \text {the } F _{score} = 5.62$
 
-	Since $F_{score} > F_{critical}$ or in other words, falls into the rejection region, we reject the null hypothesis. 
+	Since $F _{score} > F _{critical}$ or in other words, falls into the rejection region, we reject the null hypothesis. 
 
 	That is, the variance in machine one and machine two are not equal. Machine one has a higher variance and hence needs inspection for issues.
 
@@ -479,7 +479,7 @@ where $\sum(x - \bar{x}) ^2$ is the _sum of squares_ $SS$ and the $n -1$ is the 
 So the formula for the f value becomes
 
 $$
-F = \frac{\text {Variance Between Groups}} {\text {Variance Within Groups}} = \frac{\frac{SSG}{df_{groups}}}{\frac{SSE}{df_{error}}}
+F = \frac {\text {Variance Between Groups}} {\text {Variance Within Groups}} = \frac {\frac{SSG}{df _{groups}}}{\frac {SSE} {df _{error}}}
 $$
 
 where SSG = Sum of Squares Groups, $df_{groups} =$ degrees of freedom (groups) and
@@ -489,7 +489,7 @@ SSE = Sum of Squares Error and $df_{error}$ = degrees of freedom (error)
 
 As with any hypothesis testing, let us perform the calculation using the hypothesis testing steps.
 
-1. State the null and the alternate hypothesis
+**1. State the null and the alternate hypothesis**
 
 	For ANOVA, the hypothesis will always be - the means across different groups will be equal.	
 	In this case, the means of the groups will be equal is the null hypothesis.
@@ -506,11 +506,11 @@ We know that in the formula, we are dividing the sum of squares between groups a
 {{< /alert >}}
 
 
-2. Find the level of significance
+**2. Find the level of significance**
 
 	Here level of significance is not provided; we will take the default $\alpha = 0.05$
 
-3. Find the critical value
+**3. Find the critical value**
 	
 	We know that the two degrees of freedom - for the groups and within the groups are 2 and 27, respectively. So, $df_1 = 2$ and $df_2 = 27$
 
@@ -518,7 +518,7 @@ We know that in the formula, we are dividing the sum of squares between groups a
 
 	![](https://i.imgur.com/B0ucElO.png)
 
-4. Find the test statistic
+**4. Find the test statistic**
 
 	To compute it manually, we will be using excel. The following screenshot shows how it is done.
 
@@ -535,7 +535,7 @@ $$
 substituting in the formula, we get
 
 $$
-F_{test} = \frac{\frac{420}{2}}{\frac{3300}{27}} = 1.718
+F _{test} = \frac{\frac{420}{2}}{\frac{3300}{27}} = 1.718
 $$
 
 #### Computing the sum of squares within groups and between groups via excel data-analysis add-in.
@@ -556,9 +556,9 @@ $$
 
 	![](https://i.imgur.com/I1AhY5O.png)
 	
-5. Draw your conclusion
+**5. Draw your conclusion**
 	
-	Here we see that the $F_{score} \text {is less than the } $F_{critical}$ (`1.718` < `3.354`), and hence we will accept the null hypothesis - which means that there is no difference between the means of any group.
+	Here we see that the $F _{score} \text {is less than the } F _{critical}$ (`1.718` < `3.354`), and hence we will accept the null hypothesis - which means that there is no difference between the means of any group.
 
 	![](https://i.imgur.com/mOHKOzb.png)
 
