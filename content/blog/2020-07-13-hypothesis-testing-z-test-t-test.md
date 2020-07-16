@@ -162,7 +162,7 @@ Let's try to follow the hypothesis test process.
 4. Find the test statistic
 5. Draw the conclusion
 
-#### 1. Stating the null and the alternate hypothesis
+**1. Stating the null and the alternate hypothesis**
 
 $$
 \mathbf{H}_\mathbf{0}: \mu \ge 2000
@@ -174,12 +174,12 @@ $$
 
 We see the sign of the alternate hypothesis, and it is `<` (less than symbol) which means the test is a **one-tailed lower-tail test.**
 
-#### 2. Choose the level of significance
+**2. Choose the level of significance**
 
 The level of significance provided is $\alpha = 5$%. 
 So the confidence level is , 1 - $\alpha\space = 95$% 
 
-#### 3. Find the critical value
+**3. Find the critical value**
 
 The corresponding Z score (critical value) is $z_c = -1.64$ 
 Here the `-` (negative) sign implies that it is a lower tail test.
@@ -192,7 +192,7 @@ The rejection region is highlighted in the graph below.
 
 ![](https://i.imgur.com/1zzXU27.png)
 
-#### 4. Find the test statistic
+**4. Find the test statistic**
 
 Here, the sample is $n = 40$, which confirms the first condition of the $ Z $ test mentioned above.
 
@@ -217,7 +217,7 @@ which yeilds the result $\textrm {test} \space z$ = `-1.95`. When we plot it in 
 
 The test statistic $\textrm{test} \space z$ falls within the rejection range. So we reject the null hypothesis.
 
-#### 5. Drawing the conclusion
+**5. Drawing the conclusion**
 
 The hypothesis that the average amount filled by the cola machine into a cola bottle is less than `2,000` cubic cm.
 
@@ -273,7 +273,7 @@ As the population standard deviation, $\sigma$ is not known in a $t$ test, we ar
 The formula for computing the confidence interval to estimate $\mu$ is
 
 $$
-\bar{x} - t_{n-1,\frac{\alpha}{2}} \frac{s}{\sqrt n} \le \mu \le \bar{x} + t_{n-1,\frac{\alpha}{2}} \frac{s}{\sqrt n}
+\bar{x} - t _{n-1,\frac{\alpha}{2}} \frac{s}{\sqrt n} \le \mu \le \bar{x} + t _{n-1,\frac{\alpha}{2}} \frac{s}{\sqrt n}
 $$
 
 Where $\bar{x}$ is the sample mean, $t$ is the test statistic of the $t$ distribution, $n-1$ is the degree of freedom, $\alpha$ is the level of significance, $S$ is the sample standard deviation, $n$ is the number of samples.
@@ -323,7 +323,7 @@ $$
 From the _t_ tables, we can find the _t_ statistic value for $df = 14$ and $\alpha /2 = 0.025$ is
 
 $$
-t_{14,0.025} = 2.145
+t \_{14,0.025} = 2.145
 $$
 
 See below image for finding the t value for $df = 14$ and $\alpha = 0.025$
@@ -408,11 +408,11 @@ We know the hypothesis testing steps.
 **1. State the null and the alternate hypothesis**
 
 $$
-	\mathbf{H}_\mathbf{0}: \mu = 100
+\mathbf{H} _\mathbf{0}: \mu = 100
 $$
 
 $$
-	\mathbf{H}_\mathbf{1}: \mu > 100
+\mathbf{H} _\mathbf{1}: \mu > 100
 $$
 
 Since the symbol of the alternate hypothesis is greater than, it is a _right-tailed_ test.

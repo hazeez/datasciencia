@@ -338,6 +338,8 @@ We started with what are tails, upper tail and lower tail, one-tailed tests and 
 
 In the next post, we will explore more on finding the _test statistic, which is the 4th step of the hypothesis testing process.
 
+Thanks for reading! If you enjoyed reading this article, consider subscribing to our newsletter below. We will notify you on the latest content published on datasciencia.
+
 {{< alert info "Next part in the series">}}
 - [Part 3 - Finding the test statistic - Z test and T test](../hypothesis-testing-z-test-t-test/)
 {{< /alert >}}

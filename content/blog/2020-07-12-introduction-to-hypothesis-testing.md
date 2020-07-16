@@ -192,7 +192,7 @@ This probability is known as the _p-value_
 
 If we say the _p-value_ or probability is `2%`, our sample has `2%` chances of going wrong in rejecting the null hypothesis.
 
-If we say the _p-value_ or probability is '30 %`, our sample has '30 %` chances of going wrong in rejecting the null hypothesis. Our chances of getting a promotion will impact adversely.
+If we say the _p-value_ or probability is `30 %`, our sample has `30 %` chances of going wrong in rejecting the null hypothesis. Our chances of getting a promotion will impact adversely.
 
 We are humans, and we need to have a leeway (a threshold) for making some mistakes/errors with the samples. 
 
@@ -202,7 +202,7 @@ In other words, **level of significance** is the maximum level of risk (maximum 
 
 Level of significance is denoted by the letter $\alpha$ (alpha)
 
-`alpha` is normally represented as `1%` or `5%` or '10 %` etc. 
+`alpha` is normally represented as `1%` or `5%` or `10 %` etc. 
 
 #### Let's consolidate our understanding!
 
