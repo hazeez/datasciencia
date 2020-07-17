@@ -174,14 +174,14 @@ link = "https://www.linkedin.com/in/hafizulazeez/"
 [[params.sharingOptions]]
 name = "facebook"
 icon = "ti-facebook"
-url = "https://www.facebook.com/sharer/sharer.php?u=datasciencia.com%s"
+url = "https://www.facebook.com/sharer/sharer.php?u=%s"
 
 [[params.sharingOptions]]
 name = "twitter"
 icon = "ti-twitter-alt"
-url = "https://twitter.com/intent/tweet?text=datasciencia.com%s"
+url = "https://twitter.com/intent/tweet?text=%s"
 
 [[params.sharingOptions]]
 name = "linkedin"
 icon = "ti-linkedin"
-url = "https://www.linkedin.com/shareArticle?mini=true&url=datasciencia.com%s&source=LinkedIn"
+url = "https://www.linkedin.com/shareArticle?mini=true&url=%s&source=LinkedIn"
