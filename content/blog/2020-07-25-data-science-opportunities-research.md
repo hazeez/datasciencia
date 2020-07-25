@@ -60,7 +60,7 @@ Learning Data Science can be hard, and finding a job in the Data Science field c
 
 I had other questions too. 
 
-- What is the minimum related experience I should post on my resume to get an interview call? 
+- What is the minimum related experience I need to have to get an interview call? 
 - Can I get a holistic view of all the skills needed for a Data Scientist? Which technologies should I concentrate on?
 - Is deep learning knowledge necessary to get a job? 
 - Is domain knowledge required, and are companies asking for it? 
@@ -68,7 +68,7 @@ I had other questions too.
 
 As with any data related projects we start, I started digging through the data. Read and analyzed more than 100 job postings in two job portals across four different cities in India with an experience of 0 to 5 years.
 
-At the end of this post, if you had the same questions as I did, you will be very well informed to make the right decisions. The objective of this post is to help you fine-tune your resume with the needed skills and experience levels. If you just started in Data Science, it will help in getting a realistic view of the job market for Data Science for Beginners. 
+At the end of this post, if you had the same questions as I did, you will be very well informed to make the right decisions. The objective of this post is to help fine-tune your resume with the needed skills and experience levels. If you just started in Data Science, it will help in getting a realistic view of the job market for Data Science for Beginners. 
 
 #### Scope of the research
 
@@ -87,7 +87,7 @@ Some companies call Data Scientists with multiple names like Machine learning en
 I had to **filter out jobs** that fit the above criteria as they were too specific or too vague. I call them outliers. Here are the criteria
 
 - Jobs with an incomplete job description
-- Jobs that are niche like Computer Vision (not many jobs around it)
+- Jobs that are niche like Computer Vision 
 - Jobs that require only IIT/IIM/NIT graduates
 - Jobs that require PhD
 - Jobs that are part-time, internship or freelancing
@@ -108,18 +108,18 @@ If you are starting in Data Science with just a couple of years of related exper
 
 #### Which platform out of the two - Indeed / Naukri is the best for Beginners?
 
-The word **best** is subjective. Naukri and Indeed had almost the same number of job postings - **61** and **57** postings over the past 30 days. With Naukri, the job search was mostly board - search multiple job titles like Data Scientist, Data Analyst, etc. at once, and you can select various cities in one single go. With indeed.com, the best I could find out is to choose one city or a single job title. I found it constraining.
+The word **best** is subjective. According to me, a site that helps in finding jobs quickly and easily without having to look around for important information is best. Naukri and Indeed had almost the same number of job postings - **61** and **57** postings over the past 30 days. With Naukri, the job search was mostly broad - search multiple job titles like Data Scientist, Data Analyst, etc. at once, and you can select various cities in one single go. With Indeed, the best I could find is to choose one city or a single job title. I found it constraining. Definitely, not the best experience with Indeed. 
 
-I also felt that indeed.com lists the job in an unstructured manner. Naukri had a dedicated job location, min salary, max salary, part-time/full-time information separated from the rest of the job description. In indeed.com, it was all over the place, making it tough for finding information quickly.
+I also felt that Indeed lists the job in an unstructured manner. Naukri had a dedicated job location, min salary, max salary, part-time/full-time information separated from the rest of the job description. In Indeed, it was all over the place, making it tough for finding information quickly.
 
 **Beware! I found less than 10% of the job posting that are duplicates - both posted in Naukri and Indeed.** It means that when you are applying for jobs, post in both the sites. 
 
-Also, I didn't do a job search on Linked-in, which is also another excellent resource for the job hunt. There might be other sites that you may need to explore.
+I didn't do a job search on Linked-in, which is another excellent resource for the job hunt. There might be other sites that you may need to explore.
 
 
 #### Is a math background mandatory (formal education) for the Data Science positions posted?
 
-Almost all the positions posted required adequate familiarity with strong skills in Statistics, probability, and other quantitative methods. Still, only **11%** of the job openings are very specific about exceptional math skills being mandatory. Otherwise, if you are a self-learner in data science or have a decent math skill, you should still get a job. 
+Almost all the positions posted requires adequate familiarity in math with strong skills in Statistics, probability, and other quantitative methods. Still, only **11%** of the job openings are very specific about exceptional math skills being mandatory. Otherwise, if you are a self-learner in data science or have a decent math skill, you should still get a job. 
 
 #### What keywords are the best to search for Data Scientist positions?
 
@@ -132,7 +132,7 @@ The full range of keywords is present in the dataset used for this search. See t
 
 For starters, domain here refers to the industry type of the company.  E.g., Banking, Retail, Manufacturing, etc.
 
-Most software services companies are now enabling clients to make decisions based on data, and I see that **40%** of these companies are working in multiple domains. It is good news as you can apply for any of these positions irrespective of the area of expertise. No specific domain knowledge mandated.
+Most software services companies are now enabling clients to make decisions based on data, and I see that **25%** of these companies are working in multiple domains. It is good news as you can apply for any of these positions irrespective of the area of expertise. No specific domain knowledge mandated.
 
 But, if you want to get past the competition or targeting a specific domain of interest, these top three domains that have the most number of job postings.
 Banking and Financial Services (BFSI) **16%**, Healthcare **8%** and Telecom **5%**
@@ -227,12 +227,12 @@ download the dataset. The dataset is provided in the `.xlsx` format.
 
 With the dataset, you can derive further insights.
 
-- Access the companies looking for data science skills. I have linked each company to their website thereby saving you
-  time to look into the companies yourself
-- Get the list of companies working in domains like manufacturing, retail, ecommerce etc
-- Links to the job description for each job listed
-- Do further research on startup companies that are working only on Machine learning technologies
-- Recruitment/talent management agencies you should be in touch to accelerate your job hunt
+- Access the companies looking for data science skills used in this research. I have linked each company to their website thereby saving you
+  time to look into the companies yourself.
+- Get the list of companies working in domains like manufacturing, retail, ecommerce etc.
+- Links to the job description for each job listed.
+- Do further research on startup companies that are working only on Machine learning technologies.
+- Recruitment/talent management agencies you should be in touch to accelerate your job hunt.
 
 If you enjoyed reading, consider sharing this article on your social network (links to the left). You can also follow us on social media **[Facebook](https://www.facebook.com/Datasciencia-110682290664089/posts/), [Twitter](https://twitter.com/hafizulazeez)** and **[Linked In](https://www.linkedin.com/in/hafizulazeez/)**
 
