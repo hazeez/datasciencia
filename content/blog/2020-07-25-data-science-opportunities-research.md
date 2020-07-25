@@ -20,6 +20,7 @@ categories:
 tags:
   - data-analysis
   - research
+  - infographic
 
 # post type - 'featured' or 'post' or 'hidden'
 type: "post"
@@ -108,7 +109,7 @@ If you are starting in Data Science with just a couple of years of related exper
 
 #### Which platform out of the two - Indeed / Naukri is the best for Beginners?
 
-The word **best** is subjective. According to me, a site that helps in finding jobs quickly and easily without having to look around for important information is best. Naukri and Indeed had almost the same number of job postings - **61** and **57** postings over the past 30 days. With Naukri, the job search was mostly broad - search multiple job titles like Data Scientist, Data Analyst, etc. at once, and you can select various cities in one single go. With Indeed, the best I could find is to choose one city or a single job title. I found it constraining. Definitely, not the best experience with Indeed. 
+The word **best** is subjective. According to me, a site that helps in finding jobs quickly and easily without having to look around for important information is best. Naukri and Indeed had almost the same number of job postings - **61** and **57** postings respectively over the past 30 days. With Naukri, the job search was mostly broad - search multiple job titles like Data Scientist, Data Analyst, etc. at once, and you can select various cities in one single go. With Indeed, the best I could find is to choose one city or a single job title. I found it constraining. Definitely, not the best experience with Indeed. 
 
 I also felt that Indeed lists the job in an unstructured manner. Naukri had a dedicated job location, min salary, max salary, part-time/full-time information separated from the rest of the job description. In Indeed, it was all over the place, making it tough for finding information quickly.
 
