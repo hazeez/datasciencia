@@ -138,14 +138,14 @@ enable = true
 ############################ news letter ########################
 [params.newsletter]
 enable = true 
-title = "Join the Data Science Journey!"
-content = "We occasionally send you email updates on the latest posts, tutorials and book recommendations in Data Science. We have a strict no spam policy and we don't sell your data."
+title = "Join Our Newsletter!"
+content = "We occasionally send you email updates on the latest posts and tutorials in Data Science. We have a strict no spam policy and we don't sell your data."
 
 ############################# social site ########################
 [[params.social]]
 title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://www.facebook.com/Datasciencia-110682290664089/"
+link = "https://www.facebook.com/Datasciencia-110682290664089/posts/"
 
 [[params.social]]
 title = "twitter"

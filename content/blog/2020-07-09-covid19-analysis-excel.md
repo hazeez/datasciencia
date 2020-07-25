@@ -9,7 +9,7 @@ thumbnail: "https://res.cloudinary.com/datasciencia/image/upload/v1594351327/Gre
 alt: "covid-19 data analysis in MS excel"
 
 # meta description
-description: "How to dashboard the covid-19 data in MS Excel"
+description: "Covid 19 data analysis using excel"
 
 # taxonomies
 # use only one category; tags can be multiple
@@ -19,7 +19,6 @@ categories:
 tags:
   - excel
   - data analysis
-  - covid 19
   - dashboard
 
 # post type - 'featured' or 'post' or 'hidden'
@@ -30,11 +29,12 @@ slug: "covid-19 data analysis in excel"
 
 # keywords
 keywords:
-- data analysis 
-- visualization 
-- excel
-- covid-19
-- dashboard
+- data analysis in excel 
+- covid 19 visualization using excel
+- covid 19 analysis using excel 
+- covid 19 data analysis using excel 
+- covid 19
+- covid 19 dashboard using excel
 
 # comments - set to 'true' or 'false'
 comments: true 
