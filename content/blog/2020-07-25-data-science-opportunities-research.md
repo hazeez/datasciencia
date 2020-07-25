@@ -235,7 +235,7 @@ With the dataset, you can derive further insights.
 - Do further research on startup companies that are working only on Machine learning technologies.
 - Recruitment/talent management agencies you should be in touch to accelerate your job hunt.
 
-If you enjoyed reading, consider sharing this article on your social network (links to the left). You can also follow us on social media **[Facebook](https://www.facebook.com/Datasciencia-110682290664089/posts/), [Twitter](https://twitter.com/hafizulazeez)** and **[Linked In](https://www.linkedin.com/in/hafizulazeez/)**
+If you enjoyed reading, consider sharing this article on your social network. You can also follow us on social media **[Facebook](https://www.facebook.com/Datasciencia-110682290664089/posts/), [Twitter](https://twitter.com/hafizulazeez)** and **[Linked In](https://www.linkedin.com/in/hafizulazeez/)**
 
 Thank you for your time. If you have any comments/questions, you can record your comments below and I shall try to
 answer as soon as I can. 
