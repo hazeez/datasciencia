@@ -1,5 +1,5 @@
 ---
-title: "Looking for Data Scientist Positions - Here Is What You Should Know!"
+title: "Looking for Data Scientist Jobs - Here Is What You Should Know!"
 date: 2020-07-25T13:46:57+05:30
 
 # post thumb - set only one image
@@ -21,6 +21,7 @@ tags:
   - data-analysis
   - research
   - infographic
+  - jobs
 
 # post type - 'featured' or 'post' or 'hidden'
 type: "post"
@@ -37,6 +38,10 @@ keywords:
 - data science is hard
 - data science jobs during lockdown
 - data science jobs during covid 
+- jobs in data science
+- job in data science
+- data science job
+- data science jobs
 
 # comments - set to 'true' or 'false'
 comments: true 
