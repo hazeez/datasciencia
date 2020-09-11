@@ -46,7 +46,7 @@ showActions: false
 draft: false
 
 #funfact
-funfact: true
+funfact: false
 funfact_description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis
 cumque" 
 
