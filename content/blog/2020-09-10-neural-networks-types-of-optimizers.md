@@ -26,7 +26,7 @@ tags:
 type: "post"
 
 # set the slug for the post
-slug: "neural-networks-types-optimizers"
+slug: "neural-networks-types-optimizers-and-performance"
 
 # keywords
 keywords:
