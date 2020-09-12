@@ -21,6 +21,8 @@ tags:
   - "neural networks"
   - "deep learning"
   - "optimizers"
+  - "keras"
+  - "tensorflow"
 
 # post type - 'featured' or 'post' or 'hidden'
 type: "post"
@@ -117,7 +119,8 @@ X_test = X_test.reshape((X_test.shape[0], -1))
 
 ```
 # use only 33% of training data to expedite the training process
-X_train, _ , y_train, _ = train_test_split(X_train, y_train, test_size = 0.67, random_state = 101)
+X_train, _ , y_train, _ = train_test_split(X_train, y_train, 
+                          test_size = 0.67, random_state = 101)
 
 # converting y data into categorical (one-hot encoding)
 y_train = to_categorical(y_train)
@@ -153,9 +156,13 @@ Let's us go ahead and define a model that has
 With the above parameters, let's define a `sequential` model.
 
 ```
-def mlp_model(activation_first, activation_last, input_shape, initializer, neurons_layers_first, neurons_layers_last, loss, metrics, optimizer):
+def mlp_model(activation_first, activation_last, input_shape, initializer, 
+              neurons_layers_first, neurons_layers_last, loss, metrics, 
+              optimizer):
+
     model = Sequential()
-    model.add(Dense(neurons_layers_first, input_shape = (input_shape , ), kernel_initializer=initializer))
+    model.add(Dense(neurons_layers_first, input_shape = (input_shape , ), 
+              kernel_initializer=initializer))
     model.add(BatchNormalization())
     model.add(Activation(activation_first))
     model.add(Dense(neurons_layers_first, kernel_initializer = initializer))
@@ -182,12 +189,14 @@ Stochastic gradient descent performs a parameter update based on each training e
 
 ```
 sgd = optimizers.SGD(lr = 0.001)
-model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 'categorical_crossentropy', ['accuracy'], sgd)
+model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 
+                  'categorical_crossentropy', ['accuracy'], sgd)
 ```
 
 ```
 %%time
-model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 100, verbose = 0)
+model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, 
+          epochs = 100, verbose = 0)
 
 # CPU times: user 37.5 s, sys: 3.17 s, total: 40.7 s
 # Wall time: 26.6 s
@@ -198,7 +207,8 @@ model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 1
 results = model.evaluate(X_test, y_test)
 print('Test accuracy: ', results[1]*100)
 
-# 313/313 [==============================] - 0s 899us/step - loss: 1.2138 - accuracy: 0.8175
+# 313/313 [==============================] - 0s 899us/step 
+# - loss: 1.2138 - accuracy: 0.8175
 # Test accuracy:  81.74999952316284
 ```
 
@@ -208,12 +218,14 @@ RMSProp divides the learning rate by an exponentially decaying average of square
 
 ```
 rms = optimizers.RMSprop(lr = 0.001)
-model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 'categorical_crossentropy', ['accuracy'], rms)
+model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 
+                  'categorical_crossentropy', ['accuracy'], rms)
 ```
 
 ```
 %%time
-model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 100, verbose = 0)
+model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, 
+          epochs = 100, verbose = 0)
 
 # CPU times: user 40.8 s, sys: 3.58 s, total: 44.4 s
 # Wall time: 28.9 s
@@ -224,7 +236,8 @@ model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 1
 results = model.evaluate(X_test, y_test)
 print('Test accuracy: ', results[1]*100)
 
-# 313/313 [==============================] - 0s 921us/step - loss: 0.3434 - accuracy: 0.9358
+# 313/313 [==============================] - 0s 921us/step 
+# - loss: 0.3434 - accuracy: 0.9358
 # Test accuracy:  93.58000159263611
 ```
 
@@ -238,12 +251,14 @@ Adam optimizer gave the second-best accuracy for this multi-classification probl
 
 ```
 adam = optimizers.Adam(lr = 0.001)
-model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 'categorical_crossentropy', ['accuracy'], adam)
+model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 
+                  'categorical_crossentropy', ['accuracy'], adam)
 ```
 
 ```
 %%time
-model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 100, verbose = 0)
+model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3,
+          epochs = 100, verbose = 0)
 
 # CPU times: user 41.3 s, sys: 4.21 s, total: 45.5 s
 # Wall time: 28.9 s
@@ -254,7 +269,8 @@ model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 1
 results = model.evaluate(X_test, y_test)
 print('Test accuracy: ', results[1]*100)
 
-# 313/313 [==============================] - 0s 925us/step - loss: 0.1914 - accuracy: 0.9527
+# 313/313 [==============================] - 0s 925us/step 
+# - loss: 0.1914 - accuracy: 0.9527
 # Test accuracy:  95.27000188827515
 ```
 
@@ -264,12 +280,14 @@ Adagrad is the algorithm that adaptively scales the learning rate for each of th
 
 ```
 adagrad = optimizers.Adagrad(lr = 0.001)
-model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 'categorical_crossentropy', ['accuracy'], adagrad)
+model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 
+                  'categorical_crossentropy', ['accuracy'], adagrad)
 ```
 
 ```
 %%time
-model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 100, verbose = 0)
+model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, 
+          epochs = 100, verbose = 0)
 
 # CPU times: user 41.5 s, sys: 4.6 s, total: 46.1 s
 # Wall time: 30.1 s
@@ -280,7 +298,8 @@ model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 1
 results = model.evaluate(X_test, y_test)
 print('Test accuracy: ', results[1]*100)
 
-# 313/313 [==============================] - 0s 968us/step - loss: 1.0017 - accuracy: 0.8703
+# 313/313 [==============================] - 0s 968us/step 
+# - loss: 1.0017 - accuracy: 0.8703
 # Test accuracy:  87.02999949455261
 ```
 
@@ -290,12 +309,14 @@ Adadelta is an extension of the Adagrad algorithm. It helps in defining a window
 
 ```
 adadelta = optimizers.Adadelta(lr = 0.001)
-model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 'categorical_crossentropy', ['accuracy'], adadelta)
+model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 
+                  'categorical_crossentropy', ['accuracy'], adadelta)
 ```
 
 ```
 %%time
-model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 100, verbose = 0)
+model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, 
+          epochs = 100, verbose = 0)
 
 
 # CPU times: user 42.4 s, sys: 4.61 s, total: 47 s
@@ -307,7 +328,8 @@ model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 1
 results = model.evaluate(X_test, y_test)
 print('Test accuracy: ', results[1]*100)
 
-# 313/313 [==============================] - 0s 945us/step - loss: 1.9577 - accuracy: 0.2059
+# 313/313 [==============================] - 0s 945us/step 
+# - loss: 1.9577 - accuracy: 0.2059
 # Test accuracy:  20.589999854564667
 ```
 
@@ -320,12 +342,14 @@ More info [here](https://paperswithcode.com/paper/adam-a-method-for-stochastic-o
 
 ```
 adamax = optimizers.Adamax(lr = 0.001)
-model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 'categorical_crossentropy', ['accuracy'], adamax)
+model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 
+                  'categorical_crossentropy', ['accuracy'], adamax)
 ```
 
 ```
 %%time
-model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 100, verbose = 0)
+model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, 
+          epochs = 100, verbose = 0)
 
 # CPU times: user 41.4 s, sys: 4.43 s, total: 45.8 s
 # Wall time: 30 s
@@ -336,7 +360,8 @@ model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 1
 results = model.evaluate(X_test, y_test)
 print('Test accuracy: ', results[1]*100)
 
-# 313/313 [==============================] - 0s 925us/step - loss: 0.1897 - accuracy: 0.9478
+# 313/313 [==============================] - 0s 925us/step 
+# - loss: 0.1897 - accuracy: 0.9478
 # Test accuracy:  94.77999806404114
 ```
 
@@ -350,12 +375,14 @@ Nadam optimizer gave the best accuracy for this dataset.
 
 ```
 nadam = optimizers.Nadam(lr = 0.001)
-model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 'categorical_crossentropy', ['accuracy'], nadam)
+model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 
+                  'categorical_crossentropy', ['accuracy'], nadam)
 ```
 
 ```
 %%time
-model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 100, verbose = 0)
+model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, 
+          epochs = 100, verbose = 0)
 
 # CPU times: user 46.9 s, sys: 5.26 s, total: 52.1 s
 # Wall time: 33.1 s
@@ -366,7 +393,8 @@ model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 1
 results = model.evaluate(X_test, y_test)
 print('Test accuracy: ', results[1]*100)
 
-# 313/313 [==============================] - 0s 905us/step - loss: 0.1711 - accuracy: 0.9584
+# 313/313 [==============================] - 0s 905us/step 
+# - loss: 0.1711 - accuracy: 0.9584
 # Test accuracy:  95.8400011062622
 ```
 
@@ -378,12 +406,14 @@ The reason being this algorithm is designed to work when there is an interaction
 
 ```
 ftrl = optimizers.Ftrl(lr = 0.001)
-model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 'categorical_crossentropy', ['accuracy'], ftrl)
+model = mlp_model('sigmoid','softmax', 784 , 'he_normal', 50,10, 
+                  'categorical_crossentropy', ['accuracy'], ftrl)
 ```
 
 ```
 %%time
-model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 100, verbose = 0)
+model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, 
+          epochs = 100, verbose = 0)
 
 # CPU times: user 43.5 s, sys: 4.48 s, total: 48 s
 # Wall time: 30.9 s
@@ -394,7 +424,8 @@ model.fit(X_train, y_train, batch_size = 256, validation_split = 0.3, epochs = 1
 results = model.evaluate(X_test, y_test)
 print('Test accuracy: ', results[1]*100)
 
-# 313/313 [==============================] - 0s 905us/step - loss: 2.3012 - accuracy: 0.1135
+# 313/313 [==============================] - 0s 905us/step 
+# - loss: 2.3012 - accuracy: 0.1135
 # Test accuracy:  11.349999904632568
 ```
 
